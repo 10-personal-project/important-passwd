@@ -38,6 +38,13 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <!-- 本地仓库-->
+        <dependency>
+            <groupId>pers.baberuth.commoncode</groupId>
+            <artifactId>common-code</artifactId>
+            <version>1.0</version>
+        </dependency>
     </dependencies>
 
     <build>
