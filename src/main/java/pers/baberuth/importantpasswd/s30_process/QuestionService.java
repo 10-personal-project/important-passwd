@@ -79,7 +79,6 @@ public class QuestionService
         }
         byte[] key = dig.digest(keyStr.getBytes(CharsetUtil.CHARSET_UTF_8));
         SecretKeySpec secKey = new SecretKeySpec(key, SymmetricAlgorithm.AES.getValue());
-
         return secKey.getEncoded();
     }
 
