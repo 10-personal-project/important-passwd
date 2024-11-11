@@ -1,0 +1,1 @@
+https://www.notion.so/nogiveup/12bb68afdd1780bbaec9d5d7515a08b1
