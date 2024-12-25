@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>重要密码</title>
+        <link href="/layui/css/layui.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <style>
+            .demo-reg-container
+            {
+                width: 720px;
+                margin: 21px auto 0;
+            }
+            .layui-textarea
+            {
+                height: 600px;
+            }
+        </style>
+
+        <div class="demo-reg-container">
+            <form class="layui-form">
+                <div class="layui-form-item">
+                    <div class="layui-input-wrap">
+                        <h1>问题1</h1>
+                        初中因为一句话被起的绰号是？<br>
+                        输入拼音的首字母，小写.
+                        <input type="password" name="nickname" value="" lay-verify="required" autocomplete="off" class="layui-input" id="nickname">
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <div class="layui-input-wrap">
+                        <h1>问题2</h1>
+                        FLNS-初中-同桌，程度最大的一次是在生物实验课上，它叫什么名？<br>
+                        输入姓名的全拼音，小写.
+                        <input type="password" name="deskmateName" value="" lay-verify="required" autocomplete="off" class="layui-input" >
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <div class="layui-input-wrap">
+                        <h1>问题3</h1>
+                        高中-饭卡-那个人叫张至*？<br>
+                        输入*的全拼音，小写.
+                        <input type="password" name="peopleName" value="" lay-verify="required" autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <div class="layui-input-wrap">
+                        <h1>问题4</h1>
+                        第一个成功的NTS-第1次在印象济南-第2次在宜家&济南森林公园-是谁？<br>
+                        输入姓名的全拼音，小写.
+                        <input type="password" name="peopleTsName" value="" lay-verify="required" autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <button class="layui-btn layui-btn-fluid" lay-submit lay-filter="demo-reg">获取密码</button>
+                </div>
+
+                <div class="layui-form-item layui-form-text" id="result-wrapper" hidden>
+                    <div class="layui-input-wrap">
+                        <textarea id="result" class="layui-textarea" disabled></textarea>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <script src="/layui/layui.js"></script>
+        <script src="/index.js"></script>
+    </body>
+
+</html>
