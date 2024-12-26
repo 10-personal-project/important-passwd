@@ -10,9 +10,10 @@
         <relativePath/>
     </parent>
 
-    <groupId>pers.baberuth</groupId>
+    <groupId>pers.awesomeme</groupId>
     <artifactId>important-passwd</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
+
     <modelVersion>4.0.0</modelVersion>
     <name>important-passwd</name>
     <description>important-passwd</description>
@@ -39,9 +40,8 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- 本地仓库-->
         <dependency>
-            <groupId>pers.baberuth.commoncode</groupId>
+            <groupId>pers.awesomeme</groupId>
             <artifactId>common-code</artifactId>
             <version>1.0</version>
         </dependency>

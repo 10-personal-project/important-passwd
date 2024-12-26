@@ -1,4 +1,4 @@
-package pers.baberuth.importantpasswd.s30_process;
+package pers.awesomeme.importantpasswd.s30_process;
 
 import cn.hutool.core.exceptions.ExceptionUtil;
 import cn.hutool.core.io.FileUtil;
@@ -9,8 +9,8 @@ import cn.hutool.crypto.SecureUtil;
 import cn.hutool.crypto.symmetric.AES;
 import cn.hutool.crypto.symmetric.SymmetricAlgorithm;
 import org.springframework.stereotype.Service;
-import pers.baberuth.commoncode.ApiResp;
-import pers.baberuth.importantpasswd.s20_entity.Question;
+import pers.awesomeme.commoncode.ApiResp;
+import pers.awesomeme.importantpasswd.s20_entity.Question;
 
 import javax.crypto.spec.SecretKeySpec;
 import java.io.InputStream;

@@ -1,11 +1,11 @@
-package pers.baberuth.importantpasswd.s30_process;
+package pers.awesomeme.importantpasswd.s30_process;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import pers.baberuth.commoncode.ApiResp;
-import pers.baberuth.importantpasswd.s20_entity.Question;
+import pers.awesomeme.commoncode.ApiResp;
+import pers.awesomeme.importantpasswd.s20_entity.Question;
 
 @RestController
 public class QuestionController

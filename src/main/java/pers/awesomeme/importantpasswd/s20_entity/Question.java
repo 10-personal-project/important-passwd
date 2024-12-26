@@ -1,4 +1,4 @@
-package pers.baberuth.importantpasswd.s20_entity;
+package pers.awesomeme.importantpasswd.s20_entity;
 
 import lombok.Getter;
 import lombok.Setter;
