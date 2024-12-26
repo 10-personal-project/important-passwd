@@ -14,14 +14,13 @@ public class ExceptionController
     /**
      * 全局异常捕获
      * @param e 异常
-     * @param statusCode 要返回给前端的状态码
      * @return 异常转换为的返回给前端的数据
      */
     @ResponseBody
     @ExceptionHandler({Exception.class})
-    public ApiResp<String> cacheException(Exception e, ApiResp.StatusCode statusCode)
+    public ApiResp<String> cacheException(Exception e)
     {
         log.info("全局捕获异常【{}】", ExceptionUtil.stacktraceToOneLineString(e));
-        return ApiResp.fail(statusCode, e.getMessage());
+        return ApiResp.fail(ApiResp.StatusCode.GLOBAL_EXCEPTION, e.getMessage());
     }
 }
